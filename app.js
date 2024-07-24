@@ -3,7 +3,9 @@ const app = express();
 const port = 8080;
 
 app.get("/", (req, res) =>
-  res.send("Hallo ich bin hamza, ich prufe das pipeline, wo ist deine name")
+  res.send(
+    "Hallo ich bin hamza. ich prufe das pipeline. das ist meine erste projekt mit aws pipeline."
+  )
 );
 
 app.listen(port);
